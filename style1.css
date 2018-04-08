@@ -1,0 +1,220 @@
+html, body {
+    height:100%;
+  }
+  
+  body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .content {
+    flex: 1 0 auto;
+    background-color:lightcoral;
+  }
+    .header-container {
+      align-items:flex-start;
+      background-color:lightcoral;
+    }
+  
+    .header-text { 
+      background-color:lightcoral;
+      font-family: 'Mina', sans-serif;
+      color: white;
+  
+    }
+    .top-profile-cont {
+      background-color:limegreen;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      
+    }
+   
+    .project-header {
+      font-family: 'Mina', sans-serif;
+      font-size:65px;
+      color: yellow;
+      background-color:lightblue;
+      margin-top:30px;
+      display:flex;
+      align-self: Flex-end;
+      justify-content:center;
+      height: 100px;
+        width: 800px;
+    }
+  
+    .profile-cont {
+      border-radius: 25px;
+      height:200px;
+      width:400px;
+      background-color: lightblue;
+      display:flex;
+      justify-content:center;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+      margin-bottom: 10px;
+    }
+  
+    .profile-pic {
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+      justify-content:center;
+    }
+  .bulkinfo {
+    background-color:yellow;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+  }
+  
+  
+  
+    .skills {
+      height:400px;
+      width:400px;
+      font-family: 'Mina', sans-serif;
+      font-size:25px;
+        color: lightcoral;
+        background-color:lightblue;
+        justify-content:center;
+    }
+  
+    #colors {
+        height:210px;
+        width:210px;
+        font-family: 'Mina', sans-serif;
+        font-size:20px;
+      }
+
+    .toggle-container {
+      height:210px;
+      width: 210px;
+      background-color:limegreen;
+    }
+    .GitHub-Repos {
+      display:flex;
+      justify-content:center;
+      height: 400px;
+        width: 800px;
+        background-color:hotpink;
+        font-family: 'Mina', sans-serif;
+        font-size: 45px;
+        
+    }
+  
+    .repobutton {
+      height:50px;
+      width:800px;
+      font-family: 'Mina', sans-serif;
+      font-size:20px;
+    }
+  
+    .GitHub-Repos a:link {
+     color:skyblue;
+        
+    }
+  
+  
+  .repositories {
+    font-family: 'Mina', sans-serif;
+  }
+  
+  .button-cont {
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .sm-buttons {
+    background-color:purple;
+    width:400px;
+    display:flex;
+    justify-content:center;
+  }
+  
+    .fa {
+      padding:10px;
+      width: 24px;
+      height:24px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      align-items:center;
+  }
+  
+  .fachange {
+    padding:10px;
+    transform:scale(1.5);
+     text-align: center;
+     text-decoration: none;
+     border-radius: 50%;
+     align-items:center;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }
+  .fa-instagram {
+    background: linear-gradient(to bottom right, red, purple);
+    color:white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }
+  .fa-linkedin {
+  background: #0077B5;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  
+  }
+  .fa-github {
+    background:white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
+    }
+  
+  
+  
+  .footer-container {
+    display:flex;
+    align-items:flex-start;
+    background-color:lightcoral;
+  
+  }
+  
+  .footer-text {
+  color:white;
+  background-color: lightcoral;
+  font-family: 'Mina', sans-serif;
+  padding:20px;
+  flex-shrink:0;
+      
+      
+    }
+  
+    a.footer-text {
+      color:white;
+      font-family: 'Mina', sans-serif;
+    }
